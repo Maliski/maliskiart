@@ -1,0 +1,70 @@
+html {
+    background-color:rgb(08,32,54);
+ width:0 auto;
+ margin:0 auto;
+    border: 2px solid black;
+ }
+ 
+  body {
+    background-color:rgb(08,32,54);
+    opacity:0.6;
+   font-family: 'Noto Sans JP', sans-serif;
+ }
+  h1 {
+    font-family:'Festive', cursive;
+ font-size:200px;
+   text-align:center;
+   text-decoration:underline;
+   text-decoration-color:solid black;
+   margin: 0 auto;
+   vertical-align:left;
+    border: 5px solid black;
+   }
+ 
+ h2 {
+ font-size:60px;
+ text-align:center;
+ text-transform:uppercase;
+ margin: 40px;
+ padding:40px;
+  }
+ 
+ p{
+   font-size:30px;
+  text-align:center;
+   position:relative;
+ }
+  img {
+   display:block;
+ margin: 0 auto;
+   border:5px;
+  border: 2px solid black;}
+ 
+  .container {
+   width:0 auto;
+   margin: 0 auto;
+ }
+ 
+ header {
+   background-color:rgb(08,32,54);
+ position:relative;
+ }
+ 
+ 
+ nav ul{
+   margin:0 auto;
+   list-style:none;
+   display:inline-block;
+   position:relative;
+ }
+ nav li{
+   display:inline-block;
+   margin-left:160px;
+   font-size:30px;
+   padding-top:40px;
+   padding-bottom:40px;
+   text-transform:uppercase;
+ position:relative;
+   }
+ 
+ 
