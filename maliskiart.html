@@ -1,3 +1,5 @@
+<!--I would like to make a webpage for my artwork -->
+<body>
 <title>Maliski art</title>
 
 <link href = "styles/style.css" rel=stylesheet>
@@ -8,34 +10,101 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Festive&family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
-<!--make a nav bar-->
-
+<h1>Maliski Art</h1>
+<!--make a nav bar and bring nav to the center of the page or beside maliski art?-->
 <header>
-  <div class= "container">
-    <input type="checkbox" class="navigation-toggle">
-<nav>
-  <h1>Maliski Art</h1>
+  <div class= "navbar" style = "width:100%">
+<nav width = "100%">
   <ul>
-    <li> <ahref "#"></a> Home </li>
-    <li> <ahref "#"></a> About</li>
-    <li> <ahref "#"></a> Work</li>
-    <li> <ahref "#"></a> Pricing</li>
-    <li> <ahref "#"></a> Contact</li>
+    <button> <li> <ahref "#"></a> About</li> </button>
+ <button> <li> <ahref "#"></a> Work</li> 
+    </button> 
+    <button> <li> <ahref "#"></a> Costs</li>
+    </button>
+   <button> <li> <ahref "#"></a> Contact</li>
+    </button>
   </ul>
     </nav>
   </div>
 </header>
+ <!--favourite quote-->
+<h6><strong>"Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring."</strong></p> <blockquote cite= "https://www.google.com/search?q=marilyn+monroe+quotes&rlz=1C1AVNE_enNL787NL787&oq=marilyn+monroe+quotes&aqs=chrome..69i57j0l9.6786j0j7&sourceid=chrome&ie=UTF-8"></blockquote> 
 
-<br><br>
-
-
-  <!--make this image a background image?--><img src ="https://github.com/Maliski/my-first-project/blob/master/IMG/marilynMonroecrop.jpeg?raw=true" alt = "charcoal drawing of Marilyn Monroe"> 
+  <p> - Marilyn Monroe</p>
  
-<!--favourite quote-->
-<h2><strong>"Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring."</strong></p> <blockquote cite= "https://www.google.com/search?q=marilyn+monroe+quotes&rlz=1C1AVNE_enNL787NL787&oq=marilyn+monroe+quotes&aqs=chrome..69i57j0l9.6786j0j7&sourceid=chrome&ie=UTF-8"></blockquote> 
 
-<p>- Marilyn Monroe</p>
+<!--whats the difference between relative/sticky/absolute?-->
 
-<!--I tried out some different positions of the img,h1/h2/p but they just messed with the outcome of the page, I decided to stick with using relative as appose to sticky, absolute or fixed as it seemed to work the best for my code so far-->
+<h2 id="about">
+  About
+</h2>
+
+<p>Maliski art....</p>
+  
+  <div id= "work">
+  <h2> Work</h2>
+  <p>Some examples of the work I have completed</p>
+   
+    <div class"row">
+      <div class"column">
+     <!--make this image a background image?-->
+  <img src ="https://github.com/Maliski/my-first-project/blob/master/IMG/marilynMonroecrop.jpeg?raw=true" alt = "charcoal drawing of Marilyn Monroe" style = "width:20%">
+      </div>
+    
+    <!--images need to be shown as a grid-->
+        <div class "column">
+    <img src = "https://raw.githubusercontent.com/Maliski/my-first-project/master/IMG/Dog.jpeg" alt = "charcoal drawing of dog"style = "width:20%"> 
+      </div>
+    <div class"column">                                  <img src= "https://raw.githubusercontent.com/Maliski/my-first-project/master/IMG/mayahColor.jpeg" alt= "oilpainting" style = "width:20%" >
+      </div>
+      <div class"column">      
+      <img src= "https://raw.githubusercontent.com/Maliski/my-first-project/master/IMG/pullAway.jpeg" alt= "linocut print on paper" style = "width:20%">
+      </div>
+    <div class"column">                               <img src="https://raw.githubusercontent.com/Maliski/my-first-project/master/IMG/daBois.jpeg" alt ="oil painting da boys" style = "width:20%">
+    </div>
+    </div>
+                                                     
+                                                
+  <div id="costs">
+  <h2>Costs</h2>
+  <!--make table-->
+  
+  <table style="width:100%" >
+    <tr>
+      <th>Drypoint etching</th>
+      <td>$35.00</td>
+</tr>
+    <tr>
+      <th>Charcoal drawing</th>
+      <td>$50.00</td>
+    </tr>
+    <tr>
+      <th>Oil painting</th>
+      <td>
+        Please contact me for a quote
+      </td>
+      </tr>
+    <tr>
+      <th>Water color painting</th>
+      <td>Please contact me for a quote</td>
+    </tr>
+      
+  </table>
+  </div>
+  
+  <h2 id="contact">Contact</h2>
+  
+  <p>
+  E-mail: somone@gmail.com
+  Phone: 020-666666
+  Adress: 00 adress line here
+  </p>
+  <div id = copyright>
+ 
+  </div>
+    <footnote>
+      <p>Copyright JAM 2021</p>
+    </footnote>
+</body>
