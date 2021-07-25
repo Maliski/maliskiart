@@ -1,4 +1,4 @@
-html {
+ html {
    background-color:rgb(08,32,54);
 width:0 auto;
 margin:0 auto;
@@ -9,6 +9,7 @@ margin:0 auto;
    background-color:rgb(08,32,54);
    opacity:0.6;
   font-family: 'Noto Sans JP', sans-serif;
+ background-image:url("https://imgur.com/t/wallpaper/v2wtzJl");
 }
 /* place an image in the background here*/
  h1 {
@@ -16,12 +17,10 @@ margin:0 auto;
    font-size:100px;
    text-align:center;
    text-decoration:underline;
-   text-color:solid black;
    margin:0 auto;
    vertical-align:middle;
    border: 5px solid black;
   /*fix*/
-   background-url: ("https://github.com/Maliski/my-first-project/blob/master/IMG/marilynMonroecrop.jpeg?raw=true");
   }
 
 h6 {
@@ -38,35 +37,16 @@ p{
   position:relative;
 }
 img {
-  display:block;
+  display:inline-block;
 margin: 0 auto;
   border:5px;
  border: 2px solid black;}
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 header {
   background-color:rgb(08,32,54);
 position:relative;
 }
 
-
-nav ul{
-  margin:0 auto;
-  list-style:none;
-  display:inline-block;
-  position:relative;
-  text-align:center;
-  padding:0 auto;
-}
 nav li{
   display:inline-block;
   font-size:20px;
@@ -92,9 +72,6 @@ table, th, td {
   text-align:center
 width:100%}
 
-table {
-width:100%;
-}
 #costs  
 {
  text-align:center;
@@ -110,3 +87,4 @@ width:100%;
 copyright{
   text-decoration:uppercase;
 }
+
